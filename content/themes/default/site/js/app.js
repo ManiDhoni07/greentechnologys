@@ -30,6 +30,7 @@ $(function ($) {
   $(document).ready(function(){
 
     $('#popularcourse, #masterprogram').owlCarousel({
+        items:4,
         loop:false,
         nav:false,
         responsiveClass:true,
@@ -37,11 +38,11 @@ $(function ($) {
             0:{
                 items:1
             },
-            600:{
-                items:3
+            560:{
+                items:2
             },
-            1000:{
-                items:4
+            991:{
+                items:3
             }
         }
     })
